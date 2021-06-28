@@ -56,6 +56,26 @@
                     "target": "MainPage"
                 },
                 {
+                    "pattern": "example1",
+                    "name": "example1",
+                    "target": "example1"
+                },
+                {
+                    "pattern": "example2",
+                    "name": "example2",
+                    "target": "example2"
+                },
+                {
+                    "pattern": "example3",
+                    "name": "example3",
+                    "target": "example3"
+                },
+                {
+                    "pattern": "example4",
+                    "name": "example4",
+                    "target": "example4"
+                },
+                {
                     "pattern": "FixedPage1",
                     "name": "FixedPage1",
                     "target": "FixedPage1"
@@ -69,6 +89,18 @@
             "targets": {
                 "MainPage": {
                     "viewName": "MainNavigation.MainPage"
+                },
+                "example1": {
+                    "viewName": "MainNavigation.Example1"
+                },
+                "example2": {
+                    "viewName": "MainNavigation.Example2"
+                },
+                "example3": {
+                    "viewName": "MainNavigation.Example3"
+                },
+                "example4": {
+                    "viewName": "MainNavigation.Example4"
                 },
                 "FixedPage1": {
                     "viewName": "FixedNavigation.FixedPage1"

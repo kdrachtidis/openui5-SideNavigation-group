@@ -1,10 +1,6 @@
 sap.ui.define([
-  'jquery.sap.global',
-  'sap/ui/core/mvc/Controller',
-  'sap/ui/model/json/JSONModel',
-  'sap/m/Popover',
-  'sap/m/Button'
-], function (jQuery, Controller, JSONModel, ResponsivePopover, Button) {
+  'sap/ui/core/mvc/Controller'
+], function (Controller) {
   "use strict";
 
   var Controller = Controller.extend("DemoUXapp.controller.init", {
@@ -14,6 +10,22 @@ sap.ui.define([
         title: 'Home',
         icon: 'sap-icon://home',
         key: 'MainPage'
+      }, {
+        title: 'Example 1',
+        icon: 'sap-icon://grid',
+        key: 'example1',
+        expanded: true,
+        items: [{
+            title: 'Example 2',
+            key: 'example2'
+          }, {
+            title: 'Example 3',
+            key: 'example3'
+          }]
+      }, {
+        title: 'Example 4',
+        icon: 'sap-icon://grid',
+        key: 'example4'
       }], fixedNavigation: [{
         title: 'Utility item',
         icon: 'sap-icon://grid',
